@@ -1,0 +1,25 @@
+</div>
+
+        
+        <div class="section_header">
+          <div id="bugs"></div>
+                Disclaimer
+        </div>
+        <div class="content_section_text">
+          <p>
+                This webpage was made for functional demonstrations only.
+          </p>
+          <p>
+                This HTML file was directly modified from the Apache2 default welcome page.
+          </p>
+        </div>
+
+
+
+
+      </div>
+    </div>
+    <div class="validator">
+    </div>
+  </body>
+</html>

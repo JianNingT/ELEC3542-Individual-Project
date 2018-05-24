@@ -1,0 +1,12 @@
+        </div>
+        <div class="content_section_text">
+          <p>
+                **Additional Information**
+          </p>
+
+        </div>
+        <div class="section_header">
+          <div id="changes"></div>
+                Current Capacity
+        </div>
+        <div class="content_section_text">

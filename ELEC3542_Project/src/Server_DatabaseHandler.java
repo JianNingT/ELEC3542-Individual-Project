@@ -30,10 +30,10 @@ public class Server_DatabaseHandler extends Thread {
 		DT = new DateTime();
 		RF = new ReadWriteFile();
 		
-		this.operationStart = 6;
+		this.operationStart = 0;
 		this.operationEnd = new LocalData(24,0,0);
 		
-		NodeDatabaseDirectory = "DatabaseFiles/" + this.nodeNumber + "/";
+		NodeDatabaseDirectory = "/home/pi/ELEC3542_Project_Files/DatabaseFiles/" + this.nodeNumber + "/";
 		this.day_week = DT.getDayOfWeek_String();
 		boolean day_type_checker = true;
 		
@@ -43,9 +43,9 @@ public class Server_DatabaseHandler extends Thread {
 			this.day_type = "Holiday";
 		}
 		
-		this.database_today = new LocalData[ 12*18 + 1 ];
+		this.database_today = new LocalData[ 12*24 + 1 ];
 		int i=0;
-	    for(int h=0; h<18; h+=1){
+	    for(int h=0; h<24; h+=1){
 	        for(int m=0; m<60; m+=5){
 	        	this.database_today[i] = new LocalData( this.operationStart + h , m , 0 );
 	            i++;
@@ -62,7 +62,7 @@ public class Server_DatabaseHandler extends Thread {
 	}
 	
 	public LocalData getData( int i ) {
-		if( i >= 0 && i <= 12*18 ) {
+		if( i >= 0 && i <= 12*24 ) {
 			return this.database_today[ i ];
 		}
 		return null;
@@ -126,7 +126,7 @@ public class Server_DatabaseHandler extends Thread {
 		int i;
 		
 		i=0;
-	    for(int h=0; h<18; h+=1){
+	    for(int h=0; h<24; h+=1){
 	        for(int m=0; m<60; m+=5){
 	        	database_temp[i] = new LocalData( this.operationStart + h , m , 
 	        									( this.database_today[i].capacity()*(this.dayWeek_Update_Weightage)
@@ -137,7 +137,7 @@ public class Server_DatabaseHandler extends Thread {
 	    RF.writeDatabase( NodeDatabaseDirectory + "Day-" + this.day_week + ".txt" ,  database_temp );
 		
 	    i=0;
-	    for(int h=0; h<18; h+=1){
+	    for(int h=0; h<24; h+=1){
 	        for(int m=0; m<60; m+=5){
 	        	database_temp[i] = new LocalData( this.operationStart + h , m , 
 	        									( this.database_today[i].capacity()*(this.dayType_Update_Weightage)

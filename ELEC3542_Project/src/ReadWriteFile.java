@@ -80,8 +80,8 @@ public class ReadWriteFile {
 			}
 		}
 		String list[] = input.split(",");
-		LocalData[] data = new LocalData[12*18];
-		for(int i=0; i<(12*18); i++) {
+		LocalData[] data = new LocalData[12*24];
+		for(int i=0; i<(12*24); i++) {
 
 			data[i]= new LocalData( list[(i*3)],
 									list[(i*3)+1],

@@ -51,18 +51,26 @@ sudo apt-get install apache2 - Used to host webpage ( /var/www/html/index.html )
 sudo apt-get install weavedconnectd - Allows remote access using remot3.it (Replicate webpage access).
 
 ### Additional Classes
- - DateTime  
+ 1. DateTime  
    - Used to standardized accessing time and date
    - Can be reimplemented as a static class
- - LocalData
+ 2. LocalData
    - Object class for data in the server
    - Stores capacity and time
- - ReadWrtieFile
+ 3. ReadWrtieFile
    - Used to read and write .txt files
    - Can be reimplemented as a static class
 
 ### Libraries/ Plugins/ Reference
-
+ 1. MQTT Client - https://www.eclipse.org/paho/clients/java/
+ 2. Pi Camera Module - https://github.com/Hopding/JRPiCam
+ 3. Ultrasonic - https://www.hackster.io/weargenius/measure-distance-using-ultrasonic-sensor-pi4j-java-pi-48a249
+ 4. Image Processor - https://imagej.net/Maven
+ 
+ Maven Dependencies:
+ 1. 
+ 2. 
+ 3. 
 
 ### Future Improvements
  - Proper exception handling

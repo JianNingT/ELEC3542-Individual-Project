@@ -8,7 +8,7 @@
  - Sensor Node 3 - Everything is placed in the '/home/pi/ELEC3542_Project_Files' directory.
  - Server - Everything is placed in the '/home/pi/ELEC3542_Project_Files' directory.
  - ELEC3542_Project.jar - Runnable jar file. All devices run the same jar file, but different classes.
- - ELEc3542_Project.rar - archived version of 'ELEC3542_Project' java project file.
+ - ELEC3542_Project.rar - archived version of 'ELEC3542_Project' java project file.
 
 For sensor nodes, all files are placed in /home/pi/ELEC3542_Project_Files (except rc.local, which is placed at /etc/rc.local)
 
@@ -62,14 +62,14 @@ sudo apt-get install weavedconnectd - Allows remote access using remot3.it (Repl
 
 ### Libraries/ Plugins/ Reference
  1. MQTT Client - https://www.eclipse.org/paho/clients/java/
- 2. Pi Camera Module - https://github.com/Hopding/JRPiCam
- 3. Ultrasonic - https://www.hackster.io/weargenius/measure-distance-using-ultrasonic-sensor-pi4j-java-pi-48a249
+ 2. Ultrasonic - https://www.hackster.io/weargenius/measure-distance-using-ultrasonic-sensor-pi4j-java-pi-48a249
+ 3. Pi Camera Module - https://github.com/Hopding/JRPiCam
  4. Image Processor - https://imagej.net/Maven
  
  Maven Dependencies:
- 1. 
- 2. 
- 3. 
+ 1. MQTT - https://mvnrepository.com/artifact/org.eclipse.paho/org.eclipse.paho.client.mqttv3
+ 2. Image Processor - https://mvnrepository.com/artifact/net.imagej/ij
+ 3. Pi GPIO - https://mvnrepository.com/artifact/com.pi4j/pi4j-core
 
 ### Future Improvements
  - Proper exception handling

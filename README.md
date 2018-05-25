@@ -2,14 +2,14 @@
 
 ## Contents
 
-ELEC3542_Project - Java project file
-Sensor Node 1 - Everything is placed in the '/home/pi/ELEC3542_Project_Files' directory. 
-Sensor Node 2 - Everything is placed in the '/home/pi/ELEC3542_Project_Files' directory.
-Sensor Node 3 - Everything is placed in the '/home/pi/ELEC3542_Project_Files' directory.
-Server - Everything is placed in the '/home/pi/ELEC3542_Project_Files' directory.
+ - ELEC3542_Project - Java project file
+ - Sensor Node 1 - Everything is placed in the '/home/pi/ELEC3542_Project_Files' directory. 
+ - Sensor Node 2 - Everything is placed in the '/home/pi/ELEC3542_Project_Files' directory.
+ - Sensor Node 3 - Everything is placed in the '/home/pi/ELEC3542_Project_Files' directory.
+ - Server - Everything is placed in the '/home/pi/ELEC3542_Project_Files' directory.
 
-ELEC3542_Project.jar - Runnable jar file. All devices run the same jar file, but different classes.
-ELEc3542_Project.rar - archived version of 'ELEC3542_Project' java project file.
+ - ELEC3542_Project.jar - Runnable jar file. All devices run the same jar file, but different classes.
+ - ELEc3542_Project.rar - archived version of 'ELEC3542_Project' java project file.
 
 For sensor nodes, all files are placed in /home/pi/ELEC3542_Project_Files (except rc.local, which is placed at /etc/rc.local)
 
@@ -40,7 +40,7 @@ Argument = node number
 ### Server
 ![camera program structure](https://user-images.githubusercontent.com/18203755/40534736-9f7df80c-6039-11e8-830e-b65d4a41f365.png)  
 
-Command: java Server_Core 3
+Command: java Server_Core 3  
 Argument = number of nodes
 
 

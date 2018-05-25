@@ -21,8 +21,6 @@ For sensor nodes, all files are placed in /home/pi/ELEC3542_Project_Files (excep
 Command: java Sensor_Core_CameraType 1  
 Argument = node number  
 
-
-
 #### Sensor Node 2
 ![sensehat program structure](https://user-images.githubusercontent.com/18203755/40534771-b4c4a12a-6039-11e8-9813-849ef5390a04.png)  
 
@@ -44,7 +42,6 @@ Argument = number of nodes
 Additional Implementations:  
  - sudo apt-get install apache2 - Used to host webpage ( /var/www/html/index.html )  
  - sudo apt-get install weavedconnectd - Allows remote access using remot3.it (Replicate webpage access)  
-
 
 ### Additional Classes
  1. DateTime  

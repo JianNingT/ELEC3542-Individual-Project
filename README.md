@@ -51,14 +51,14 @@ sudo apt-get install weavedconnectd - Allows remote access using remot3.it (Repl
 
 ### Additional Classes
  1. DateTime  
-   * Used to standardized accessing time and date
-   * Can be reimplemented as a static class
- 2. LocalData
-   * Object class for data in the server
-   * Stores capacity and time
- 3. ReadWrtieFile
-   * Used to read and write .txt files
-   * Can be reimplemented as a static class
+     * Used to standardized accessing time and date
+     * Can be reimplemented as a static class
+ 2. LocalData  
+     * Object class for data in the server
+     * Stores capacity and time
+ 3. ReadWrtieFile  
+     * Used to read and write .txt files
+     * Can be reimplemented as a static class
 
 ### Libraries/ Plugins/ Reference
  1. MQTT Client - https://www.eclipse.org/paho/clients/java/

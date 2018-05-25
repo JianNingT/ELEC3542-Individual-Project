@@ -33,8 +33,9 @@ Argument = node number
 #### Sensor Node 3
 ![sensehat program structure](https://user-images.githubusercontent.com/18203755/40534771-b4c4a12a-6039-11e8-9813-849ef5390a04.png)  
 
-Command: java Sensor_Core_SenseHatType 3
-Argument = node number
+Command: java Sensor_Core_SenseHatType 3  
+Argument = node number  
+*Everything else is the same as Sensor Node 2.
 
 ### Server
 ![camera program structure](https://user-images.githubusercontent.com/18203755/40534736-9f7df80c-6039-11e8-830e-b65d4a41f365.png)  

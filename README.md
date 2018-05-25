@@ -14,16 +14,16 @@ ELEc3542 Project.rar - archived version of 'ELEC3542_Project' java project file.
 
 For sensor nodes, all files are placed in /home/pi/ELEC3542_Project_Files (except rc.local, which is placed at /etc/rc.local)
 
-## Sensor Nodes
+### Sensor Nodes
 
 
-## Sensor Node 1
+#### Sensor Node 1
 
 
-## Sensor Node 2 and 3
+#### Sensor Node 2 and 3
 
 
-## Server
+### Server
 Additional Implementations:
 sudo apt-get install apache2 - Used to host webpage ( /var/www/html/index.html ).
 sudo apt-get install weavedconnectd - Allows remote access using remot3.it (Replicate webpage access).

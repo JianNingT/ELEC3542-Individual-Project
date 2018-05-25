@@ -65,6 +65,7 @@ sudo apt-get install weavedconnectd - Allows remote access using remot3.it (Repl
  2. Ultrasonic - https://www.hackster.io/weargenius/measure-distance-using-ultrasonic-sensor-pi4j-java-pi-48a249
  3. Pi Camera Module - https://github.com/Hopding/JRPiCam
  4. Image Processor - https://imagej.net/Maven
+ 5. Read/ Write File - https://www.mkyong.com/java/how-to-read-file-from-java-bufferedreader-example/
  
  Maven Dependencies:
  1. MQTT - https://mvnrepository.com/artifact/org.eclipse.paho/org.eclipse.paho.client.mqttv3

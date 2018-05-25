@@ -10,9 +10,7 @@
  - ELEC3542_Project.jar - Runnable jar file. All devices run the same jar file, but different classes.
  - ELEC3542_Project.rar - archived version of 'ELEC3542_Project' java project file.
 
-For sensor nodes, all files are placed in /home/pi/ELEC3542_Project_Files (except rc.local, which is placed at /etc/rc.local)
-
-
+For sensor nodes, all files are placed in /home/pi/ELEC3542_Project_Files (except rc.local, which is placed at /etc/rc.local)  
 
 ### Sensor Node
 
@@ -41,13 +39,12 @@ Argument = node number
 ![camera program structure](https://user-images.githubusercontent.com/18203755/40534736-9f7df80c-6039-11e8-830e-b65d4a41f365.png)  
 
 Command: java Server_Core 3  
-Argument = number of nodes
+Argument = number of nodes  
 
+Additional Implementations:  
+ - sudo apt-get install apache2 - Used to host webpage ( /var/www/html/index.html )  
+ - sudo apt-get install weavedconnectd - Allows remote access using remot3.it (Replicate webpage access)  
 
-
-Additional Implementations:
-sudo apt-get install apache2 - Used to host webpage ( /var/www/html/index.html ).
-sudo apt-get install weavedconnectd - Allows remote access using remot3.it (Replicate webpage access).
 
 ### Additional Classes
  1. DateTime  

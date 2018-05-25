@@ -3,11 +3,10 @@
 ## Contents
 
  - ELEC3542_Project - Java project file
- - Sensor Node 1 - Everything is placed in the '/home/pi/ELEC3542_Project_Files' directory. 
+ - Sensor Node 1 - Everything is placed in the '/home/pi/ELEC3542_Project_Files' directory.
  - Sensor Node 2 - Everything is placed in the '/home/pi/ELEC3542_Project_Files' directory.
  - Sensor Node 3 - Everything is placed in the '/home/pi/ELEC3542_Project_Files' directory.
  - Server - Everything is placed in the '/home/pi/ELEC3542_Project_Files' directory.
-
  - ELEC3542_Project.jar - Runnable jar file. All devices run the same jar file, but different classes.
  - ELEc3542_Project.rar - archived version of 'ELEC3542_Project' java project file.
 

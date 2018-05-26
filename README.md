@@ -2,13 +2,13 @@
 
 ## Contents
 
- - ELEC3542_Project - Java project file
- - Sensor Node 1 - Everything is placed in the '/home/pi/ELEC3542_Project_Files' directory.
- - Sensor Node 2 - Everything is placed in the '/home/pi/ELEC3542_Project_Files' directory.
- - Sensor Node 3 - Everything is placed in the '/home/pi/ELEC3542_Project_Files' directory.
- - Server - Everything is placed in the '/home/pi/ELEC3542_Project_Files' directory.
- - ELEC3542_Project.jar - Runnable jar file. All devices run the same jar file, but different classes.
- - ELEC3542_Project.rar - archived version of 'ELEC3542_Project' java project file.
+ - **ELEC3542_Project** - Java project file
+ - **Sensor Node 1** - Everything is placed in the '/home/pi/ELEC3542_Project_Files' directory.
+ - **Sensor Node 2** - Everything is placed in the '/home/pi/ELEC3542_Project_Files' directory.
+ - **Sensor Node 3** - Everything is placed in the '/home/pi/ELEC3542_Project_Files' directory.
+ - **Server** - Everything is placed in the '/home/pi/ELEC3542_Project_Files' directory.
+ - **ELEC3542_Project.jar** - Runnable jar file. All devices run the same jar file, but different classes.
+ - **ELEC3542_Project.rar** - archived version of 'ELEC3542_Project' java project file.
 
 For sensor nodes, all files are placed in /home/pi/ELEC3542_Project_Files (except rc.local, which is placed at /etc/rc.local)  
 
@@ -65,9 +65,3 @@ Additional Implementations:
  1. MQTT - https://mvnrepository.com/artifact/org.eclipse.paho/org.eclipse.paho.client.mqttv3
  2. Image Processor - https://mvnrepository.com/artifact/net.imagej/ij
  3. Pi GPIO - https://mvnrepository.com/artifact/com.pi4j/pi4j-core
-
-### Future Improvements
- - Proper exception handling
- - Change network infrastructure from using MQTT to a connection based one (TCP);
- - Implement RSA signature verification (integrity)
- - Restructure class files (proper threading, syncrhonization, extending etc)
